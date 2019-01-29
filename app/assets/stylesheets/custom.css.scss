@@ -7,10 +7,39 @@
     background-image: image_url('barry.jpg');
     background-position: center;
     height: 600px;
-   
+}
+
+.navbar-dark {
+    font-weight: bold;
+}
+
+#media-section {
+    background-image: image_url('barry.jpg');
+    
+    background-size: cover;
+    min-height: 800px;
     
 }
 
-.adjustment {
-    background: grey;
+#media-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    min-height: 800px; 
+}
+
+.facebook-icon {
+    width: 1.5rem;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.various-icons {
+    width: 1.5rem;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
 }
